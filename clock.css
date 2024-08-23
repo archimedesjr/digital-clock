@@ -1,0 +1,33 @@
+body {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 12px Arial, Helvetica, sans-serif;
+  background-color: rgb(30, 26, 26);
+}
+
+.clock {
+  border: 1px solid #080606;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #121211;
+}
+
+#Date {
+  font-size: 20px;
+  text-align: center;
+
+}
+.clock > ul{
+  list-style: none;
+  display: flex; 
+  font-size: 90px;
+  gap: 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
